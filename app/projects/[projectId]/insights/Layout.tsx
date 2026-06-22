@@ -13,6 +13,7 @@ import {
   LineChart,
 } from 'lucide-react';
 import { useInsightsContext } from '@/contexts/insightsContext';
+import type { ChartLayout } from '@/contexts/insightsContext';
 
 export const Layout = () => {
   const { setLayout } = useInsightsContext();
