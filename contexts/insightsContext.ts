@@ -1,12 +1,14 @@
 import { createContext, Dispatch, SetStateAction, useContext } from 'react';
 
-type ChartLayout = 'single' | 'split' | 'grid';
+export type ChartLayout =
+  | 'column'
+  | 'line'
+  | 'stacked-area'
+  | 'stacked-bar'
+  | 'stacked-column'
+  | 'bar';
 
-type CustomField = {
-  id: string;
-  label: string;
-  // extend with additional properties as needed
-};
+export type CustomField = 'status' | 'label' | 'size' | 'priority';
 
 interface IInsightsContext {
   layout: ChartLayout;

@@ -1,7 +1,11 @@
 'use client';
 import { Separator } from '@/components/ui/separator';
 import { useState } from 'react';
-import { InsightsContext } from '@/contexts/insightsContext';
+import {
+  ChartLayout,
+  CustomField,
+  InsightsContext,
+} from '@/contexts/insightsContext';
 import { ChartRenderer } from './ChartRenderer';
 import { GroupBy } from './GroupBy';
 import { Layout } from './Layout';

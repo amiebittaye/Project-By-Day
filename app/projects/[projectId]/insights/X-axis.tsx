@@ -5,7 +5,10 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
-import { useInsightsContext } from '@/contexts/insightsContext';
+import {
+  CustomField,
+  useInsightsContext,
+} from '@/contexts/insightsContext';
 import { SquareChevronDown, Tag } from 'lucide-react';
 import { JSX } from 'react/jsx-runtime';
 
